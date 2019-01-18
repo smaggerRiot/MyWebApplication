@@ -1,0 +1,42 @@
+/*.clearfix:after
+ {
+	clear: both;
+	content: ".";
+	display: block;
+	font-size: 0;
+	height: 0;
+	line-height: 0;
+	visibility: hidden;
+	margin-top:-1px;
+	position:inherit;
+ }*/
+.bPaneBorder/*groupsBorder*/
+{
+	display:inline;
+	max-width: 500px;
+    padding: 6px 0 11px 10px;
+ }
+
+
+.buttonPane /*groupsBarButton*/   
+{
+    padding:1px 8px 31px 0;
+}
+.buttonPaneTab/*groupsTabpane*/
+{
+    padding:1px 8px 29px 0;
+}
+
+
+
+
+.bPaneLinks/*ulLinks*/
+{
+    /*margin-top: -1px;*/
+    /*margin-bottom: -1px;*/
+    position: absolute;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+        <constant name="struts.action.extension" value="do,action"/>
+        <constant name="struts.enable.DynamicMethodInvocation" value="true"/>
+    <constant name="struts.devMode" value="true" />
+    <constant name="struts.i18n.encoding" value="UTF-8"/>
+    <constant name="struts.custom.i18n.resources" value="input" />
+    <!--    <constant name="struts.devMode" value="true" />-->
+    <constant name="struts.multipart.maxSize" value="1000000" />
+    <package name="default" namespace="/" extends="struts-default" >
+        <action name="login" class="com.focus.controller.ClloginCtl">
+            <result name="welcome">/WEB-INF/jsp/homepage.jsp</result>
+            <result name="success">/WEB-INF/jsp/login.jsp</result>
+            <result name="logout">/WEB-INF/jsp/logout.jsp</result>
+        </action>
+        <action name="form" class="com.focus.controller.CLFormCtl">
+            <result name="success">/WEB-INF/jsp/Form.jsp</result>
+        </action>
+        <action name="update" class="com.focus.controller.CLFormHandlerCtl">
+        </action>
+        <action name="tab" class="com.focus.controller.CLFormCtl">
+            <result name="addTab">/WEB-INF/jsp/stable1.jsp</result>
+        </action>
+        <action name="card" class="com.focus.controller.CLCardCtl">
+            <result name="cardList">/WEB-INF/jsp/CardView.jsp</result>
+        </action>
+        <action name="visual" class="com.focus.controller.CLVisualizationCtl">
+            <result name="jsondata">/WEB-INF/jsp/Visual.jsp</result>
+
+        </action>
+    </package>
+</struts>

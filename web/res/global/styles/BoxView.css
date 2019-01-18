@@ -1,0 +1,499 @@
+
+.dashletDiv {
+    position:absolute;
+    vertical-align:top;
+    background-color: transparent;
+    box-sizing: border-box;
+    height: 220px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 2px;
+    padding-bottom: 2px;
+    /*padding-bottom: 10px  ;
+    padding-left: 0     ;
+    padding-right: 10px ;*/
+}
+.dashletDiv_ {
+    /*border: 1px dotted #ccc;*/
+    height: 100%;
+}
+
+.opacity {
+    opacity: 0.8;
+}
+.L-DragElem {
+    background-color: white;
+    border: 1px solid #efefef;
+    text-align: center;
+}
+.L-DragCorner {
+    background-color: #e0773c;
+    border: 1px solid #b45724;
+    font-size: 1px;
+    height: 6px;
+    width: 6px;
+}
+hr
+{
+    margin-bottom: 2px;
+    margin-top: 2px;
+    border-color: #D1D1D1;
+}
+
+.deSelectChart
+{
+    background-color:#ffffff;
+}
+.selectChart
+{
+    background-color:burlywood;
+}
+
+
+.dashboardtbl{
+    table-layout:fixed;
+}
+.dashboardcol{
+}
+.dashboardcomp{
+    width:100%;
+    position:relative;
+    /*border:1px solid #ccc;*/
+    /*filter:revealTrans(Duration=1.0,Transition=4);*/
+    /*filter:progid:DXImageTransform.Microsoft.RadialWipe(duration=3);*/
+}
+.compMover{
+  opacity:1 !important;
+  filter:alpha(opacity=100) !important;
+}
+.comptitle{
+    font-weight:bold;
+    height:18px;
+    text-align:left;
+    /*margin-bottom:2px;*/         /*gap between title border and dashlet content*/
+    padding-left:5px;
+    opacity:0.8;
+    filter:alpha(opacity=50);
+    background-color:#F5F5F5;
+    border-color:#E5E5E5;
+    border-bottom:1px solid #EAEAEA;
+}
+.dbContainer{
+    background-color:#F3F3F3;/*#F8F8F8;#ffffff;*/
+}
+.comptitle div{
+    width:90%;
+    overflow:hidden;
+    white-space:nowrap;
+    text-overflow:ellipsis;
+    -o-text-overflow:ellipsis;
+      /*background-color:#F5F5F5;*/
+
+}
+
+.dashletActions{
+    /*padding:5px 5px 5px 4px;*/
+    /*height:100%;*/
+    /*text-decoration:none !important;*/
+    /*vertical-align:top;*/
+     /*-moz-border-radius: 10px;*/
+     /*border-radius: 4px;*/
+    /*border:1px solid lightgray;*/
+    /*line-height: 15px;*/
+    /*margin:2px;*/
+
+     /*-webkit-background-clip: padding-box;*/
+  /*-moz-background-clip:    padding;*/
+     padding:5px 5px 5px 4px;
+    height:100%;
+    text-decoration:none !important;
+    vertical-align:top;
+
+   /*-moz-border-radius: 10px;*/
+     /*border-radius: 4px;*/
+    /*border:1px solid lightgray;*/
+
+
+}
+.dashletActionsCust{
+    padding:0 0 4px 4px;                                                            .
+    height:100%;
+    text-decoration:none !important;
+    vertical-align:top;
+     border-left:1px solid #B9BDA6;
+}
+hr
+{
+
+}
+/*
+ border: 1px solid #bbb;
+    border-radius: 50%;
+    color: #656d78;
+    display: block;
+    float: left;
+    height: 30px;
+    line-height: 28px;
+    margin-left: 3px;
+    text-align: center;
+    transition: all 200ms ease 0s;
+    width: 30px;
+*/
+/*.s-dashlet-maximize
+{
+    background:url("../../../default/images/max.png") no-repeat;
+}
+. s-dashlet-restore
+{
+    background:url("../../../default/images/min.png") no-repeat;
+}*/
+
+
+.compcontent{
+ /*   overflow:auto;*/
+    /*filter:progid:DXImageTransform.Microsoft.RandomDissolve();*/
+}
+
+/* Preview related CSS */
+.prvwdashboardtbl{
+}
+.prvwdashboardcol{
+
+}
+.prvwcompcontent{
+    opacity:0.6;
+}
+/* End of Preview related CSS */
+.imgSpan{
+    FLOAT: right;
+    MARGIN-TOP: -20px;
+    padding-right:3px;
+    display:none;
+}
+/* /////////////////////////////// new dashboard styles /////////////////////////////////    */
+.dashletHeader{
+    text-align:left !important;
+}
+.dashletFooter{
+    text-align:left !important;
+    padding-left:5px;
+}
+
+/*
+.shadow
+{
+  background:#bbb;
+  border:1px solid #ddd;
+  margin:1em 0;
+}
+
+.shadow-content
+{
+  background:#fff;
+  border:1px solid #888;
+  position:relative;
+
+  left:0px;
+  top:0px;
+  }
+*/
+
+
+.previewcomp{
+    margin-top:14px;
+    margin-bottom:8px;    /*margin-right:5px;*/
+}
+
+
+.shadow {
+    /*_height: 1px;*/
+    /*_background: #000;*/
+    /*box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);*/
+    /*-moz-box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);*/
+    -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.3);
+    /*filter:progid:DXImageTransform.Microsoft.Shadow(color='#BCBCBC', Direction=135, Strength=8);*/
+    /*filter:progid:DXImageTransform.Microsoft.Blur(*/
+    /*pixelRadius=4,MakeShadow=true,ShadowOpacity=0.3);*/
+    width:100%;
+    margin-bottom:15px;
+    overflow:hidden;
+    background:#FFFFFF;
+
+ }
+
+.shadow-content {
+    /*_position: relative;*/
+   /* background: #fff;*/
+    top: 5px;
+    left: -3px;
+    /*margin-bottom:15px;*/
+      height:100%;
+}
+.dashboardcomp,.shadow-content,.shadow,.compcontent,.dashletMax{
+    -moz-box-sizing:border-box;
+    -webkit-box-sizing:border-box;
+    box-sizing:border-box;
+}
+.dashletMax{
+     position :absolute;
+     background :#FFFFFF;
+     z-index:1;
+}
+/*todo*/
+.dashboardAnch{
+    font-weight:bold;
+    margin:0 1px 0 1px;
+    padding:1px 3px 1px 3px;
+    border:1px solid #C3C89E;
+}
+.dashboardAnch{
+    background-color:#E7ECC1;
+    text-decoration:none !important;
+}
+.dashboardAnch:hover{
+    color:#020290;
+    background-color:#EDF6A2;
+    border:1px solid #B2B789;
+}
+.sHeaderRow
+{
+    /*width:100%;*/
+    /*background: url(../../../default/images/mid-raw3.png) repeat-x;*/
+}
+.sHeaderCell,.sSubHeaderCell
+{
+    /*background: url(../../../default/images/mid-raw3.png) repeat ;*/
+    /*color: #475A46;
+    border-right: 1px solid #CECCCC;*/
+}
+
+.popDiv TD
+{
+    padding:2px;
+
+}
+.db_dropdown
+{
+    font-size:11px;
+    font-weight:normal;
+    font-family:arial,tahoma,sans-serif;
+}
+
+.screenFilterMainContDv
+{
+    padding:5px 5px 0 5px ;
+    margin-bottom:2px;
+    background-color:#FFF;
+}
+.screenFilterMainCont
+{
+    background-color:#EFF8FE/*#DCE6F4*/;
+    border:1px solid #CADCE8;
+    border-left:0;
+    table-layout:fixed;
+}
+.screenFilterCont
+{
+    padding:6px 2px;
+    cursor:pointer;
+    /*font-weight:bold;*/
+    color:#626262;
+    text-align:center;
+    border-left:1px solid #CADCE8;
+    font-weight:bold;
+}
+.screenFilterSelect
+{
+    background-color:#C9D7FF;
+}
+.screenFilterPopUp
+{
+    cursor:pointer;
+    width:150px;
+    overflow-y:auto;
+}
+.screenFilterPopUp div
+{
+    padding:5px 2px;
+
+}
+.screenFilterCont div, .screenFilterPopUp div
+{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    width:95%;
+}
+.dbFilterHideFlds
+{
+    display:none;
+}
+.overflow_y
+{
+    overflow-y:scroll;
+}
+
+
+/*************************** dashboard.css ********************************************/
+.comptitle{
+    color: #4F624F;    /*FFA11C , 4F624F*/
+    border-top:1px dotted #ececec;
+    border-left:1px dotted #ececec;
+    border-right:1px dotted #ececec;
+    /*border:1px solid lightgray;    *//*thik border for dashlet title*/
+    /*background-color:#D5D9B8; *//*E2E7C7*/
+    /*background-color:#FEECB4;*/
+    /*border-top:2px solid darkgray;*/
+}
+.shadow
+{
+    /*border:1px dotted lightgray;*/
+    /*border-top:2px solid #E7B098;*/
+}
+.dashletActions
+{
+    /*border-left:1px solid #B9BDA6;*/
+}
+.prvwdashboardtbl{
+    border-left:1px dashed #6D7A05;
+}
+.prvwdashboardcol{
+    border-top:1px dashed #6d7a05;
+    border-bottom:1px dashed #6D7A05;
+    border-right:1px dashed #6D7A05;
+}
+.compcontent{
+    color:#5C59B2;
+    /*border:1px dotted #ececec*/
+    border-bottom:1px dotted #ececec;
+    border-left:1px dotted #ececec;
+    border-right:1px dotted #ececec;
+}
+.dashletHeader{
+    color: #666666;
+    background-color:#EEF4CD;
+}
+
+.dashletFooter{
+    background-color:#EEF4CD;
+}
+.refreshedAt{
+    color:#4F624F;/*#737A80;*/  /*487380*/
+}
+
+
+
+/*************************** dashboard.css ********************************************/
+/*************************** DashboardCustomization.css ********************************************/
+.dashboardBorder{
+    border:1px solid #ccc;
+    /*background-color:#FFFFFF;*/
+}
+.dashboardCenter{
+    /*background-color:#FDFFF4;*/
+}
+.dashboardHeaderBg{
+    background:#E8DCCE;/*#E6EAC6;*/
+}
+.dashboardHeaderDisableBg{
+    background:lightgray;/*#E6EAC6;*/
+}
+.disableDBAnch,.dashboardAnch{
+    border:1px solid #C3C89E;
+}
+.dashboardAnch{
+    /*background-color:#E7ECC1;*/
+}
+.disableDBAnch{
+    color:#CCCDC9 !important;
+    background-color:#FBFFDD !important;
+}
+.dashboardAnch:hover{
+    color:#020290;
+    background-color:#EDF6A2;
+    border:1px solid #B2B789;
+}
+.DragDiv{
+    border:2px solid #999999;
+    background-color:#B9C8D8;
+}
+.prevlimitRec{
+    background:#ffffff;
+    color:rgb(139,135,149);
+}
+
+/*************************** DashboardCustomization.css ********************************************/
+
+
+/***********************  Dashboard *****************************************/
+.comptitle /*dashlet*/
+{
+    padding:4px;
+    /*border-radius:8px 8px 0 0;*/
+}
+.shadow
+{
+    /*border-radius: 8px;*/
+}
+
+/***************************************************************************************************************/
+/***************************Calendar Dashboard*************************************/
+.headerTitle1
+{
+    color:#d79c04;
+}
+.taskListStatus
+{
+    color:#526651;
+}
+
+/***************************Calendar Dashboard*****************************/
+/***************************Announcement Dashlet*****************************/
+.announcementList
+{
+    background-color:#F3F3F3;
+    border-bottom:1px solid #DDE3C1;
+}
+.announcementMoutList
+{
+    background-color:#F9F9F9;
+    border-bottom:1px solid #DDE3C1;
+}
+
+
+/***************************Announcement Dashlet*****************************/
+
+.margins
+{
+    margin:10px;
+
+}
+
+
+/****************************************dashletview.css*/
+.sHeaderCell
+{
+    font-weight:normal;
+}
+
+.legendChartjs
+{
+    display:inline-block;
+    padding-right:5px;
+    padding-bottom:4px;
+}
+.spChartjsColor
+{
+       margin: 3px;
+    padding: 0px 3px;
+    padding-bottom:0px
+
+    /*display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin-right: 5px;*/
+}
+
+.fa-chart-color:before {
+   color: gray;
+}

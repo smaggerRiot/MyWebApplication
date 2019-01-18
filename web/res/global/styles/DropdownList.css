@@ -1,0 +1,141 @@
+mainDiv.listWidth
+{
+    /*border: 1px solid #5A7A9B;*/
+/*width:10%;*/
+    padding:1px;
+    /*border: 1px solid #C7E3E8;*/
+}
+.dropdown_label
+{
+/*width:10%;*/
+   font-size:12px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    padding-left:10px;
+    text-align:left;
+    white-space:nowrap;
+    width:70%;
+}
+
+
+.dropdown_img
+{
+    /*padding-top:10px;*/
+    /*padding-left:10px;*/
+    width:30%;
+    /*float:right;*/
+}
+
+.mainDiv
+{
+    /*border: 1px solid #5A7A9B;*/
+    font-size:12px;
+     padding:1px;
+}
+
+.maindivMover
+{
+    /*border: 1px outset #B4B4B4;*/
+    /*border-right-color: #628f54;*/
+    /*border-bottom-color: #628f54;*/
+    font-size:12px;
+    cursor:pointer;
+    padding:1px;
+    /*width:100%;*/
+}
+
+.popDiv
+{
+    position:absolute;
+    cursor:pointer;
+    font-family: verdana, sans-serif;
+    font-size: 11px;
+    /*border-left:1px outset #B4B4B4;
+    border-right:1px outset #B4B4B4;
+    border-top:1px outset #B4B4B4;
+    border-bottom:1px outset #B4B4B4;*/
+    /*border-left: 2px solid #C7E3E8;
+    border-right: 2px solid #C7E3E8;
+    border-top: 2px solid #C7E3E8;
+    border-bottom: 2px solid #C7E3E8;*/
+    display:none;
+/*border:1px #e0fad8;*/
+    /*margin-top:0.04em;*/
+    /*margin-left:-2px;*/
+}
+.mainDivopen
+{
+    /*font-weight:bold;*/
+    padding:1px;
+}
+
+.popDiv TD
+{
+    padding:7px;
+    white-space:nowrap;
+}
+.divLinks
+{
+    padding:7px;
+    /*background-color:#EEF2FB;    *//*#C7E3E8;*/
+    white-space:nowrap;
+}
+.dropdown_popupText
+{
+    font-size:11px;
+    font-weight:bold;
+   white-space:nowrap;
+}
+.linksMover
+{
+    padding:7px;
+    white-space:nowrap;
+    /*background-color: #77C3EB;
+    border: 1px solid #5A7A9B;*/
+}
+
+.selectedItem
+{
+    padding:7px;
+    /*BACKGROUND-COLOR:#1C7BAD;*/
+    /*BACKGROUND-COLOR:#FAD68A;*/
+    white-space:nowrap;
+}
+
+.dropDwnImg
+{
+    width:10px;
+    padding-right:10px;
+/*BACKGROUND-IMAGE: url("../../images/dropdown.gif");*/
+/*BACKGROUND-REPEAT: no-repeat;*/
+/*background-position:center;*/
+}
+.dropDwnImg_white
+{
+    width:10px;
+    padding-right:10px;
+/*BACKGROUND-IMAGE: url("../../images/dropdown.gif");*/
+/*BACKGROUND-REPEAT: no-repeat;*/
+/*background-position:center;*/
+}
+
+.dropwdown_disable
+{
+    cursor:default;
+}
+.selectedItem
+{
+    background-color:#FFC042;
+}
+
+.linksMover
+{
+    background-color:#FFE59E;
+}
+
+
+
+
+
+
+

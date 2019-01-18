@@ -1,0 +1,45 @@
+
+.deactiveTab
+{
+    cursor:pointer;
+    font-size:11px;
+    float: left;
+    list-style:none;
+    font-family:serif;
+}
+
+.activeTab
+{
+    list-style:none;
+	font-size:11px;
+    float: left;
+}
+.deactiveMenu{
+    cursor:pointer;
+}
+.activeMenu{
+    cursor:pointer;
+}
+.magMoverDiv
+{
+    POSITION: relative;
+}
+.NavLink {
+    /*COLOR: #000;*/
+    CURSOR: pointer;
+    text-decoration:none;
+}
+.Nav {
+    padding: 0;
+    margin: 0 0 0;
+    WHITE-SPACE: nowrap;
+}
+.popupMenuDiv
+{
+    display:none;
+    position:absolute;
+    z-index:10;
+}
+.ciDpdnli {
+    PADDING-BOTTOM: 2px; MARGIN: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 0px; PADDING-TOP: 0px
+}

@@ -1,0 +1,272 @@
+
+.sTable {
+   /* font: 10px Icon, sans-serif;*/
+    /*border-top: 1px solid #D2DBE3;*/
+    /*border-left: 1px solid #D2DBE3;*/
+    padding: 0px 0px 0px 0px;
+}
+
+.sHeaderRow, .sSubHeaderRow
+{
+    height: 16px;
+}
+
+.sHeaderCell, .sSubHeaderCell,.sHeaderRow TD
+{
+    font-family: verdana, sans-serif;
+    cursor: default;
+    padding: 0 8px 0 0;
+    spacing: 0px 0px solid;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.sHeaderCell INPUT
+{
+    /*height:19px;*/
+    margin-top:0px;
+    border:none;
+}
+
+/*
+.sHeaderCell:active, .sSubHeaderCell:active
+{
+    padding: 3px 4px 1px 6px;
+    white-space: nowrap;
+}
+*/
+
+.sHeaderCell IMG {
+    position: relative;
+    margin-right: -5px;
+}
+
+INPUT.noBorder {
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    BORDER-LEFT: medium none;
+    BORDER-BOTTOM: medium none;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Tahoma, sans-serif;
+    /*height: 19px;*/
+    width:100%;
+    /* Added for body table scroll in chrome as it is not coming bcz of input width given as 100% */
+}
+
+INPUT.mandatoryCol
+{
+    BORDER-RIGHT: medium none;
+    BORDER-TOP: medium none;
+    border-left: medium none;
+    /*border-left: 2px solid #ff6666;*/
+    BORDER-BOTTOM: medium none;
+    FONT-SIZE: 11px;
+    FONT-FAMILY: Tahoma, sans-serif;
+    height: 15px;
+    width:100%;
+}
+
+/*INPUT.colWidth
+{
+    width: 115px;
+}*/
+
+.sRowColor TD {
+    height: 20px;
+    padding-left:2px;
+}
+
+/*.sRowColor1 TD, .sHighlightRow TD {*/
+    /*height: 20px;*/
+/*}*/
+
+/*.sRowColor2 TD {*/
+    /*height: 20px;*/
+/*}*/
+
+
+.sRowColor1
+{
+    height: 20px;
+}
+
+.sRowColor2
+{
+    height: 20px;
+}
+
+.sHighlightRow
+{
+    /*height: 42px;*/
+}
+
+.sHighlightRow input
+{
+    /*height: 22px;*/
+}
+
+.sSelectedRow,.sSelectedRow input {
+    /*height: 20px;*/
+}
+
+.sTable-arrow {
+    /*width: 11px;*/
+    height: 10px;
+    margin: 0 2px;
+}
+
+.SNoLabel
+{
+    width:40px;
+}
+
+.SNo
+{
+    text-align:center;
+    width:40px;
+}
+
+.resizeimg
+{
+    cursor:e-resize;
+}
+.tooltipdiv
+{
+    height:20px;
+    position:absolute;
+    left:0px;
+    top:0px;
+    padding-left:2px;
+    padding-right:2px;
+}
+.noRecordsSpan
+{
+    border:none;
+    padding:10px;
+
+}
+.dots
+{
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    display:inline;;
+}
+
+.resizemarker
+{
+    z-index: 7;
+    position: absolute;
+    border: 1px solid darkgray;
+    width: 0px;
+    top: 0px;
+    left: 0px
+}
+
+
+.sHeaderCell,.sSubHeaderCell
+{
+    font:bold 11px Arial;
+    height: 22px;
+    padding: 0 0 0 10px;
+}
+.onlypad-list-des
+{
+    padding: 0 0 0 10px;
+}
+.oww
+{
+    height: 22px;
+}
+.brdno
+{
+    border: none;
+}
+
+.sHeaderRow
+{
+    /*width:100%;*/
+    /*background: url(../../images/mid-raw-2.jpg) repeat-x;*/
+}
+.sHeaderCell
+{
+    /*background: url(../../images/mid-raw-2.jpg) repeat ;*/
+    /*background: url(../images/mid-raw-2.jpg) repeat-x;*/
+    font:bold ;
+    /*color: #475A46;*/
+    height: 22px;
+    /*border-right: 1px solid #CECCCC;*/
+    padding: 0 0 0 10px;
+}
+.onlypad-list-des
+{
+    padding: 0 0 0 10px;
+}
+.oww
+{
+/*background: url(img/mid-raw-1.jpg) repeat-x;*/
+    height: 22px;
+    /*background: url(../../images/mid-raw-1.jpg) repeat-x;*/
+    /*border-right: 1px solid #CECCCC;*/
+}
+.brdno
+{
+    border: none;
+}
+/*  Row Properties  */
+.sHighlightRow{
+	/*background:url(img/liss.gif) 0 -1px repeat-x;*/
+    /*background: url(../../images/liss.gif) 0 -1px repeat-x;*/
+	/*border:1px solid #DEE2C1;*/
+	/*border-right:1px solid #DEE2C1;*/
+}
+.sRowColor1 TD {
+    font: normal ;
+    /*border-bottom: 1px solid #DDE3C1;*/
+    /*color: #666;*/
+    height: 22px;
+    padding: 0 0 0 10px;
+    /*width:100%;*/
+}
+
+.sRowColor2 TD {
+    font: normal ;
+    /*border-bottom: 1px solid #DDE3C1;*/
+    /*color: #666;*/
+    height: 22px;
+    padding: 0 0 0 10px;
+    /*width:100%;*/
+}
+.listChkBox
+{
+    text-align:center;
+    margin-left:-5px
+}
+
+.descending
+{
+	background-image:		url("../../images/upsimple.png");
+}
+
+.ascending
+{
+    background-image:		url("../../images/downsimple.png");
+}
+
+INPUT.fldFocus
+{
+    /*background-color:blue;*/
+    background-color:white;
+}
+
+
+INPUT.numberFldFocus
+{
+    /*background-color:"";*/
+    text-align:left;
+}
+
+.tabLayout
+{
+    table-layout:fixed;
+}

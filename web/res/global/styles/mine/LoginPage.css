@@ -1,0 +1,47 @@
+@import url("https://image.freepik.com/free-vector/abstract-background-with-metallic-rose-gold-texture_1048-7968.jpg");
+html body{
+    background-size: cover;
+    background: url('http://getwallpapers.com/wallpaper/full/a/5/d/544750.jpg') no-repeat;
+    height: 100%;
+    font-family: 'Numans', sans-serif;
+
+}
+
+.card{
+    height: 308px;
+    margin:50px auto;
+    width: 350px;
+    padding: 13px;
+    background-color: rgba(120, 120, 120, 0.3) !important;
+}
+.remember{
+    color: white;
+}
+.card-header img{
+    height: 73px;
+    display: inherit;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: -20px;
+}
+
+.input-group-addon{
+
+    background-color: #73a4ff;
+    color: black;
+    border:0 !important;
+}
+.login-btn{
+    color: black;
+    background-color: #73a4ff;
+    width: 100px;
+}
+
+.login-btn:hover{
+    color: black;
+    background-color: white;
+}
+.links{
+    color:white;
+}

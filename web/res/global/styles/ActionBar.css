@@ -1,0 +1,72 @@
+.actionBarHeader
+{
+    /*background: none repeat scroll 0 0 #FFFFFF;*/
+}
+.actionBarHeader2
+{
+    margin-top: 8px;
+    padding-bottom: 6px;
+}
+.actionsBarBg
+{
+    /*background: url('../images/bg.jpg') repeat-x;*/
+    height: 26px;
+}
+.actBarTitle{
+
+    padding-left:5px;
+    font-weight:bold;
+    /*font-size:11px;*/
+}
+.actBarTdPad{
+ padding-right:3px;
+}
+.actBarMandatory{
+    padding-right:4px;
+    padding-left:2px;
+    white-space:nowrap;
+}
+.tdActBarShow{
+    border-left: 1px solid #979B7B;
+}
+.lefred {
+    /*border-left: 2px solid #900;*/
+    padding-left: 10px;
+}
+.bTBorder{
+    padding-top:5px;
+    /*border-top: 1px solid #CDCDCD;*/
+}
+/*.spActBarShow{
+    background: url('../images/movedown.gif') no-repeat center;
+}
+.spActBarHide{
+    background: url('../images/moveup.gif') no-repeat  center;
+}*/
+.spActBarShow,.spActBarHide{
+    width:100%;
+    height:100%;
+    cursor:pointer;
+}
+.actBarCont{
+    width:100%;
+    height:100%;
+    padding:1px;
+    padding-bottom:10px;
+    /*background-color:#fdfdfd;*/
+}
+.actionImage{
+    
+}
+
+.actionImgBtn:hover table{
+  color:#020290;
+    background-color:#DADEBB/*E6EEA8*/;
+    /*border:1px solid #B8BBA3;*/
+}
+.actionImgBtn table{
+  border:1px solid transparent;
+  font-weight:bold;;
+  /*color:inherit;*/
+}
+
