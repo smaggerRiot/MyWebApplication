@@ -13,6 +13,6 @@
     </filter-mapping>
 
     <welcome-file-list>
-        <welcome-file>/WEB-INF/jsp/AnimateSpaceTree.jsp</welcome-file>
+        <welcome-file>/WEB-INF/jsp/CardView.jsp</welcome-file>
     </welcome-file-list>
 </web-app>
