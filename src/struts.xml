@@ -33,5 +33,9 @@
             <result name="jsondata">/WEB-INF/jsp/Visual.jsp</result>
 
         </action>
+        <action name="reqSend" class="com.focus.controller.CLRquestPractise">
+            <result name="result">/WEB-INF/jsp/RequestDisplay.jsp</result>
+
+        </action>
     </package>
 </struts>

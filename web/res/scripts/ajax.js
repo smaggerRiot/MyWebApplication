@@ -20,7 +20,7 @@ var callAJAX = new function() {
 
                 }
             }//end of function
-            request.open(mode,url,false);
+            request.open(mode,url,true);
             request.send();
            // alert(val);
             /*if(val != undefined)

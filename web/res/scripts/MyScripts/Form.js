@@ -106,6 +106,7 @@ var clRegistration =new function()
     {
 
         if(obj.getAttribute("class")=="fa fa-angle-up") {
+
             obj.setAttribute("class", "fa fa-angle-down")
         }else{
             obj.setAttribute("class","fa fa-angle-up")
