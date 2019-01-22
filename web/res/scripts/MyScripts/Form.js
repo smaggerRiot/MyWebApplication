@@ -112,6 +112,10 @@ var clRegistration =new function()
             obj.setAttribute("class","fa fa-angle-up")
         }
     }
+    this.openGraphDiv=function()
+    {
+        callAJAX.sendRequestAJAX("GET","visual.do","main");
+    }
 
 
 };

@@ -13,7 +13,7 @@
 </head>
 <body>
 <c:set value="${requestScope.result}" var="result"/>
-
+<img src="https://www.gettyimages.in/gi-resources/images/500px/983794168.jpg" style="height: 100%;width: 100%">
 <c:choose>
   <c:when test="${result=='1'}">
     <div class="div1" style="width: 330px;height: 290px">
@@ -38,4 +38,38 @@
   </c:when>
 </c:choose>
 </body>
+<script src="res/scripts/MyScripts/requestPractice.js"></script>
+<script src="res/scripts/connect.js" ></script>
+<script src="res/scripts/constants.js" ></script>
+<script src="res/scripts/DynamicIncResources.js"></script>
+<script src="res/scripts/ajax.js"></script>
+<script src="res/scripts/MyScripts/Form.js"> </script>
+
+<script src="res/scripts/ajax.js"> </script>
+<script src="res/scripts/validate.js"> </script>
+
+<script src="res/scripts/app.js" ></script>
+<script src="res/scripts/ActionBar.js"> </script>
+<script src="res/scripts/button.js"> </script>
+<script src="res/scripts/combobox.js"></script>
+<script src="res/scripts/CrossBrowser.js"> </script>
+<script src="res/scripts/CommonScripts.js"> </script>
+<script src="res/scripts/calendar.js"> </script>
+<script src="res/scripts/calendar-en.js"> </script>
+<script src="res/scripts/calendar-setup.js"> </script>
+<script src="res/scripts/connect.js" ></script>
+<script src="res/scripts/constants.js" ></script>
+<script src="res/scripts/dialog.js" ></script>
+<script src="res/scripts/dialogbox.js" ></script>
+<script src="res/scripts/table.js"> </script>
+<script src="res/scripts/tabmenu.js"> </script>
+<script src="res/scripts/Taskpane.js"> </script>
+<script src="res/scripts/tabpane.js"> </script>
+<script src="res/scripts/Message.js"> </script>
+<script src="res/scripts/uploadbar.js"> </script>
+<script src="res/scripts/utilities.js"> </script>
+<script src="res/scripts/validation.js"> </script>
+<script src="res/scripts/jquery-2.0.3.js"></script>
+
+<FocusTags:SOnLoadScript></FocusTags:SOnLoadScript>
 </html>

@@ -11,11 +11,11 @@ import javax.servlet.http.HttpServletRequest;
 public class CLRquestPractise extends ActionSupport
 {
 
-    public String execute()
+    public String reqSend()
     {
         HttpServletRequest hreq= ServletActionContext.getRequest();
-        String option = hreq.getParameter("option");
-        hreq.setAttribute("result",option);
+        String result = hreq.getParameter("option");
+        hreq.setAttribute("result",result);
         return "result";
     }
 }

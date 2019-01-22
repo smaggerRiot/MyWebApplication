@@ -241,7 +241,7 @@
                         <li><a href="#">security</a></li>
                     </ul>
                 </li>
-                <li><a href="#">graphs</a></li>
+                <li><a href="" onclick="clRegistration.openGraphDiv()">graphs</a></li>
                 <li><a href="#">Notification</a></li>
 
 

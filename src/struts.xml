@@ -29,8 +29,8 @@
         <action name="card" class="com.focus.controller.CLCardCtl">
             <result name="cardList">/WEB-INF/jsp/CardView.jsp</result>
         </action>
-        <action name="visual" class="com.focus.controller.CLVisualizationCtl">
-            <result name="jsondata">/WEB-INF/jsp/Visual.jsp</result>
+        <action name="visual">
+            <result name="jsondata">/WEB-INF/jsp/AnimateSpaceTree.jsp</result>
 
         </action>
         <action name="reqSend" class="com.focus.controller.CLRquestPractise">
