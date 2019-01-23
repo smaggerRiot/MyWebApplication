@@ -7,12 +7,12 @@ var clkRequest=new function()
     {
 
             alert();
-        var surl="reqSend.do?option="+option;
-        /*callAJAX.sendRequestAJAX("GET",surl,"view")*/
+  /*      var surl="reqSend!reqSend.do?option="+option;
+        callAJAX.sendRequestAJAX("GET",surl,"view")*/
 /*
         con.sendGetRequest("reqSend.do?option="+option,null,null,"clkRequest.onDisplay");
 */
-        con.sendGetRequest("reqSend!reqSend.do?option="+option,null,null,"clkRequest.onDisplay");
+        con.sendGetRequest("xyz!reqSend.do?option="+option,null,null,"clkRequest.onDisplay");
     }
     this.onDisplay =function(res)
     {

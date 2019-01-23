@@ -105,7 +105,7 @@ function getInstance(sFunctionWithNamespace)
 
 var clAppBuffer=new function()
 {
-    var sContextPath = "/dialog1";
+    var sContextPath = "/MyWebApplication";
     var sTheme = "";
     var iThemeType = 0;
     var iDateFormat;

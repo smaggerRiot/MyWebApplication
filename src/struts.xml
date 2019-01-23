@@ -13,7 +13,7 @@
     <!--    <constant name="struts.devMode" value="true" />-->
     <constant name="struts.multipart.maxSize" value="1000000" />
     <package name="default" namespace="/" extends="struts-default" >
-        <action name="login" class="com.focus.controller.ClloginCtl">
+        <!--<action name="login" class="com.focus.controller.ClloginCtl">
             <result name="welcome">/WEB-INF/jsp/homepage.jsp</result>
             <result name="success">/WEB-INF/jsp/login.jsp</result>
             <result name="logout">/WEB-INF/jsp/logout.jsp</result>
@@ -30,10 +30,10 @@
             <result name="cardList">/WEB-INF/jsp/CardView.jsp</result>
         </action>
         <action name="visual">
-            <result name="jsondata">/WEB-INF/jsp/AnimateSpaceTree.jsp</result>
+            <result name="jsondata">/WEB-INF/jsp/AnimateSpaceTree.jsp</result>-->
 
-        </action>
-        <action name="reqSend" class="com.focus.controller.CLRquestPractise">
+        <!--</action>-->
+        <action name="xyz" class="com.focus.controller.CLRequestPractise">
             <result name="result">/WEB-INF/jsp/RequestDisplay.jsp</result>
 
         </action>

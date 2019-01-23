@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
 /**
  * Created by Dipak on 1/21/2019.
  */
-public class CLRquestPractise extends ActionSupport
+public class CLRequestPractise extends ActionSupport
 {
 
     public String reqSend()
