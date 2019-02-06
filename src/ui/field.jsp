@@ -1,5 +1,5 @@
 <%@ page import="java.util.List" %>
-<%@ page import="com.focus.beans.StudentBean" %>
+<%--<%@ page import="com.focus.beans.StudentBean" %>--%>
 <%--
   Created by IntelliJ IDEA.
   User: admin
