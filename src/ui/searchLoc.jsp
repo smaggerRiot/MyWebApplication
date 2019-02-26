@@ -54,8 +54,8 @@
                         <div class="inputDiv">
                               <form class="form-inline">
                                 <div class="form-group">
-                                    <input type="text" class="form-control"></div>
-                                <div class="form-group"> <button class="btn btn-primary"><i class="fa fa-search" style="font-size:24px"></i> Search</button></div>
+                                    <input type="text" class="form-control" id="searchInput"></div>
+                                <div class="form-group"> <button class="btn btn-primary" onclick="clMap.getAddressDetails()"><i class="fa fa-search" style="font-size:24px"></i> Search</button></div>
                               </form>
                         </div>
                       </div>
@@ -68,12 +68,12 @@
   <div class="row">
 
 
-                <Label for="pininfo">Pincode</Label>
+                <Label for="pininfo">Name</Label>
               <input type="text" class="form-control" id="pininfo">
-              <Label for="state">State</Label>
+              <Label for="state">Address</Label>
               <input type="text" class="form-control" id="state">
-              <Label for="city">city</Label>
-              <input type="text" class="form-control" id="city">
+              <%--<Label for="city">city</Label>
+              <input type="text" class="form-control" id="city">--%>
               <Label for="lat">Latitude</Label>
               <input type="text" class="form-control" id="lat">
               <Label for="long">Longitude</Label>
@@ -85,6 +85,8 @@
 </body>
 
 <script src=res/scripts/MyScripts/searchLoc.js></script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBUQMDCCZWeEfdJ6_svkfsF_es0N51ZF0Q&callback=clMap.onclkMaps"
+<script src="https://maps.googleapis.com/maps/api/js?key=
+AIzaSyCqqx3EIYlKJsMkN2n4sps5sJRXLKm7cdM
+&libraries=places&callback=clMap.onclkMaps"
         async defer></script>
 </html>

@@ -1,6 +1,5 @@
 <%@ page import="java.util.List" %>
-<%@ page import="com.focus.beans.CLCardBean" %>
-<%@ page import="com.focus.beans.CLActionBean" %>
+
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
@@ -8,7 +7,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="res/global/styles/Topbar.css">
+  <%--<link rel="stylesheet" type="text/css" href="res/global/styles/Topbar.css">--%>
  <%-- <link href="res/global/styles/css/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="res/global/styles/css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="res/global/styles/css/bootstrap-grid.css" rel="stylesheet" type="text/css">
@@ -17,6 +16,7 @@
   <link href="res/global/styles/css/bootstrap-reboot.min.css" rel="stylesheet" type="text/css">
 --%>
 
+<%--
   <link href="res/global/styles/index.css" rel="stylesheet" type="text/css">
   <link href="res/global/styles/App.css" rel="stylesheet" type="text/css">
   <link href="res/global/styles/ActionBar.css" rel="stylesheet" type="text/css">
@@ -38,6 +38,12 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+--%>
+  <%--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">--%>
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.5.0/css/all.css' integrity='sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU' crossorigin='anonymous'>
+  <%--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">--%>
+
   <title>CardView</title>
 <%--<script>
   function loadCont()
@@ -161,7 +167,8 @@
 
 
 
-
+<script src="res/scripts/ajax.js"> </script>
+<%--
 <script src="res/scripts/MyScripts/Form.js"> </script>
 <script src="res/scripts/myTabblePanne.js"> </script>
 <script src="res/scripts/tapasPractice.js"> </script>
@@ -192,5 +199,6 @@
 <script src="res/scripts/jquery-2.0.3.js"></script>
 
 <FocusTags:SOnLoadScript></FocusTags:SOnLoadScript>
+--%>
 
 </html>

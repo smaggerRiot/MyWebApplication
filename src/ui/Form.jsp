@@ -11,7 +11,7 @@
   <title>Resume Builder</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="res/global/styles/Topbar.css">
+<%--  <link rel="stylesheet" type="text/css" href="res/global/styles/Topbar.css">--%>
     <%--<link href="res/global/styles/css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="res/global/styles/css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="res/global/styles/css/bootstrap-grid.css" rel="stylesheet" type="text/css">
@@ -137,7 +137,28 @@
     }
     #dataView{
         margin-top:20px;
-    }.login{
+    }
+    .uploadPic{
+        text-align: center;
+
+        position: absolute;
+
+        top: 168px;
+        cursor: pointer;
+
+        background-color: #d9d9d9;
+
+        height: 27px;
+
+        width: 100%;
+        /*display: none;*/
+    }
+    /*.logo-img img:hover  .uploadPic{
+        display:block;
+        cursor: pointer;
+
+    }*/
+    .login{
              display: none; /* Hidden by default */
              position: fixed; /* Stay in place */
              z-index: 1; /* Sit on top */
@@ -207,13 +228,15 @@
 
 
 
-    .close:hover,
+
     .close:focus {
         color: red;
         cursor: pointer;
     }
     .container{width: 100%}
-
+    input[type="file"] {
+        display: none;
+    }
 
 
     </style>
@@ -281,7 +304,11 @@
                 <i  class="fa fa-info-circle" ></i>
             </div>
             <div class="side-nav moreInfo" id="moreInfo">
-                <div class="logo-img"><img src="res/global/images/admin-icon.png">
+                <label for="file-upload" class="uploadPic">
+                    <i class="fa fa-cloud-upload"></i>Upload Pic
+                </label>
+                <input id="file-upload" type="file"/>
+                <div class="logo-img"><img id="imageUpload" src="res/global/images/admin-icon.png">
                 <div class="txt-user" style="text-align: center; color: #000FF0" >
                     <h6>Sandeep Kishan</h6>
                     <h4>METRO.LTD</h4>
@@ -401,7 +428,7 @@
                             <%-- <i class="fa fa-plus" style="font-size: 20px ;color:blue;" onclick="clRegistration.addRow()"></i>&nbsp;&nbsp;
                              <i class="fa fa-trash" style="font-size: 20px ;color:blue;" onclick="clRegistration.deleteRow()"></i>&nbsp;&nbsp;--%>
 
-                            <i class="fa fa-plus" id="addTab" type="button" style="font-size: 20px ;color:blue;" onclick="clRegistration.clkAddTab()"></i>
+                             <i class="fa fa-plus" id="addTab" type="button" style="font-size: 20px ;color:blue;" onclick="clRegistration.clkAddTab()"></i>
 
                             <FoccusTags:STabbedPane id="infotab" specific="style='overflow:hidden'">
                                 <FoccusTags:SAddTab title="table" >

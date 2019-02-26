@@ -1,6 +1,4 @@
-/**
- * Created by Dipak on 12/18/2018.
- */
+
 var clRegistration =new function()
 {
    this.clkRegister=function()
@@ -118,4 +116,15 @@ var clRegistration =new function()
     }
 
 
+
 };
+document.querySelector('input[type="file"]').addEventListener('change', function() {
+
+    if (this.files && this.files[0]) {
+        var img = document.getElementById('imageUpload');
+
+        img.setAttribute("src",URL.createObjectURL(this.files[0]));
+
+    }
+});
+
